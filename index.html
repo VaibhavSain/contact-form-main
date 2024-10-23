@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="st.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Contact form</title>
+
+</head>
+<body style="background-color: #e0f1e7;  height: 64em;">
+  <main>
+    <form action="action.pho">
+    <div style="height: 44em;" class="container absolute left-80 top-28 rounded-lg bg-white w-1/2">
+     <h1 class="absolute text-black font-serif font-semibold left-10 top-8 text-3xl">Contact Us</h1>
+   <h3 class="absolute top-24 left-10">First Name:</h3>
+    <input type="text" required="" name="fname" class=" absolute border h-10 top-32 left-10 rounded-lg cursor-pointer border-black w-72">
+    <h3 class="absolute top-24 right-64">Last Name:</h3>
+    <input type="text" required name="lname" class="absolute border-black border h-10 top-32 cursor-pointer right-12 rounded-lg w-72">
+    <h3 class="absolute top-48 left-10">Email Address:</h3>
+    <input style="width: 37em;" required type="email" name="email" class="absolute border-black border h-10 hover:cursor-pointer top-56 left-10 rounded-lg ">
+    <label for="car">
+    <h3 class="absolute top-72 left-10">Query Type:</h3>
+    <div class="border border-black cursor-pointer h-10 w-72 rounded-lg pt-1 pl-5 top-80 left-10 absolute">
+      <input type="radio"  class="border" id="car">
+    General Enquiry:
+    </div>
+    <div class="border border-black cursor-pointer h-10 w-72 rounded-lg pt-1 pl-5 absolute top-80 right-12">
+    <input type="radio" class="border" id="car">
+    Support Request:
+    </div>
+    </label>
+    <h3 class="absolute top-96 left-10">Message:</h3>
+    <input type="text" style="width: 37em; top: 26em;" class="h-44  absolute  cursor-pointer left-10 rounded-lg  border border-black ">
+    <input type="checkbox" style="top: 38em;" class="absolute  cursor-pointer left-10">
+    <p style="top: 43.2em" class="absolute cursor-pointer left-20 text-sm ">I consent to being contacted by the team
+    </p>
+    <input style="width: 37em; top: 40em;" type="submit" value="Submit" class="bg-green-700 h-10 text-white rounded-lg absolute  left-10">
+    </div>
+   </form>
+  </main>
+</body>
+</html>
